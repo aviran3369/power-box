@@ -1,0 +1,30 @@
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 280px;
+
+  .nav-btn {
+    height: 280px;
+    width: 280px;
+    margin: 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+
+    &.tabata {
+      background-color: #c62828;
+    }
+    &.timer {
+      background-color: #ffab00;
+    }
+    &.stopper {
+      background-color: #64dd17;
+    }
+  }
+}

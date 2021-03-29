@@ -1,0 +1,7 @@
+.timer-count.module-timer-count {
+  margin: 80px 0;
+
+  @media screen and (max-width: 768px) {
+    margin: 24px 0;
+  }
+}
